@@ -15,6 +15,7 @@ Your program should ask the user for
 * Appropriate formatting of the output is a requirement for this assignment
 """
 P=float(input("Principal:"))
-R=float(input("Rate as decimal:"))
+R=float(input("Rate as percentage:"))
 T=float(input("Time in years:"))
-print(P*R*T)
+print('amount earned in simple interest: $',(P*R*T)/100-P)
+print('total amount of money: $',P*R*T/100)
