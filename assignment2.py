@@ -37,9 +37,8 @@ for i in range(1,T+1):
    SI=float(i*I*R/100)
    print(SI*I*i*R/100+I)
 """
+SI=0
 for s in range(1,T+1):
     i=I*s+SI
     SI=i*R/100
     print(SI+i)
-    
-    return SI
