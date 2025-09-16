@@ -1,5 +1,5 @@
 """
-### Name:
+### Name: Owen Riley (Kaboom154)
 ### Assignment 2
 #### Calculation of an investment with a recurring deposit
 The simple interest formula only works if the principal or initial investment is not touched.  If an amount is added to the principal every year, then the interest must be calculated and added along with the future deposit to determine the starting balance at the beginning of the next year.
@@ -23,4 +23,32 @@ rate: 5%
 final balance: 1320.68
 
 """
+I=float(input("annual investment:"))
+R=float(input("interest rate as percentage:"))
+T=int(input("time in years:"))
 
+O=0
+for(A) in range(0,T):
+    O=(O+I)*(R/100)+(O+I)
+    print(O)
+ 
+#previous attemps:
+"""
+P*R*T/100 = SI
+T = 1 , repeat 10 times
+100*5/100 = 5 = SI 1
+(100 + SI 1 + I)*5/100 = 5.25 = SI 2
+"""
+"""
+for i in range(1,T+1):
+   print(i*I*R/100+I)
+   SI=float(i*I*R/100)
+   print(SI*I*i*R/100+I)
+"""
+"""
+SI=0
+for s in range(1,T+1):
+    i=I*s+SI
+    SI=i*R/100
+    print(SI+i)
+"""
