@@ -23,3 +23,7 @@ How many months will it take him to pay off the car.  How much interest has he p
 He will have paid 21711.60 in interest
 """
 
+D=int(input("initial debt:"))
+
+while D > 0:
+    #
