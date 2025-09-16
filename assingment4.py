@@ -37,3 +37,4 @@ while debt > 0:
     
 print("after",T,"months,",intrstcountr,"dollars have been payed in interest")
 
+

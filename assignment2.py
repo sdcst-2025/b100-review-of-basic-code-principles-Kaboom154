@@ -31,7 +31,7 @@ O=0
 for(A) in range(0,T):
     O=(O+I)*(R/100)+(O+I)
     print(O)
-
+ 
 #previous attemps:
 """
 P*R*T/100 = SI
