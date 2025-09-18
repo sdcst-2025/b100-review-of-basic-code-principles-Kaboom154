@@ -32,4 +32,3 @@ while T > 0:
     T-=1
     O=(O+I)*(R/100)+(O+I)
     print(O) 
-    
