@@ -1,5 +1,5 @@
 """
-### Name:
+### Name: Owen Riley (Kaboom154)
 ### Assignment 3
 #### Calculation of an investment with a recurring depositS
 This will be the same as assignment 2 except you must use a while loop to iterate through your years.
@@ -23,3 +23,12 @@ rate: 5%
 10 years
 final balance: 1320.68
 """
+I=float(input("annual investment:"))
+R=float(input("interest rate as percentage:"))
+T=int(input("time in years:"))
+
+O=0
+while T > 0:
+    T-=1
+    O=(O+I)*(R/100)+(O+I)
+    print(O) 

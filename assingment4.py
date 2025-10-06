@@ -1,5 +1,5 @@
 """
-### Name:
+### Name:Owen Rliey (Kaboom154)
 ### Assignment 4
 #### Calculation of a debt repayment with recurring payments
 This is the reverse of assignments 2 and 3
@@ -22,4 +22,19 @@ How many months will it take him to pay off the car.  How much interest has he p
 84 months
 He will have paid 21711.60 in interest
 """
+debt=int(input("initial debt: "))
+rate=float(input("interest rate as percentage: "))
+annPayment=float(input("annual payment: "))
+T=0
+intrstcountr=0
+
+while debt > 0:
+    T+=1
+    intrst=(debt*rate/100)
+    intrstcountr=intrstcountr+intrst
+    debt=debt+intrst-annPayment
+    print(T,intrstcountr,debt)
+    
+print("after",T,"months,",intrstcountr,"dollars have been payed in interest")
+
 

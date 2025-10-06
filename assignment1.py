@@ -1,5 +1,5 @@
 """
-### Name:
+### Name: Owen Riley (Kaboom154)
 ### Assignment 1
 #### Calculation of Simple Interest
 The simple interest formula is I = P*r*t where I = the amount of interest, P is the principal or the amount invested, r is the interest rate per year (converted to a decimal) and t is the length of time in years.
@@ -14,3 +14,8 @@ Your program should ask the user for
 * The program will calculate the amount of interest earned and display it.
 * Appropriate formatting of the output is a requirement for this assignment
 """
+P=float(input("Principal:"))
+R=float(input("Rate as percentage:"))
+T=float(input("Time in years:"))
+print('amount earned in simple interest: $',(P*R*T)/100-P)
+print('total amount of money: $',P*R*T/100)
